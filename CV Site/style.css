@@ -1,0 +1,156 @@
+h1, h2, h3, h4, h5, h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 1em;
+    color: #333;
+}
+
+
+nav{
+	background-color: #f7f5f5;
+	z-index: ;
+}
+
+header{
+	height: 100vh;
+	padding-top: 10%;
+background:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAUAAAAFCAYAAACNbyblAAAAGklEQVQYV2P8////f0ZGRkYGJIDCgYlTKAgAm6MEBqM9ePAAAAAASUVORK5CYII=) repeat;
+background-color: #f7f5f5;
+}
+
+
+
+header h1 {
+	font-size: 72px;
+	letter-spacing: 2px;
+}
+
+
+section {
+	padding: 10% 0 10% 0;
+	height: auto;
+	text-align: center;
+}
+
+.my-pic {
+	position: fixed;
+	left: 900px;
+	top: 90px;
+	z-index: 2;
+}
+
+
+.gray-bg {
+	background-color: #f7f5f5;
+}
+
+#about{
+	text-align: left;
+}
+
+#skills{
+}
+
+#skills h3{
+	padding-bottom: 50px;
+}
+
+.skills-logo{
+	height: 150px;
+}
+
+#experience{
+	height: auto;
+}
+
+#experience .experience-items{
+	text-align: left;
+	padding-top: 5%;
+}
+
+.diamond-icon{
+	padding: 20px 25px;
+}
+
+#portfolio{
+	
+}
+
+.portfolio-pic{
+	margin-top: 30px;
+	width: 100%;
+	border: 3px #fff solid;
+}
+
+.portfolio-new-row{
+	margin-top: 30px;
+}
+
+.card-text{
+	text-align: left;
+	display: inline-block;
+}
+
+#testimonials p::before{
+	content: "“";
+    font-size: 80px;
+    height: 40px;
+    left: 0;
+    position: absolute;
+    text-align: center;
+    top: -15px;
+    width: 40px;
+}
+
+#testimonials p::after{
+	bottom: 40px;
+    content: "”";
+    font-size: 80px;
+    height: 40px;
+    left: auto;
+    position: absolute;
+    right: 0;
+    top: auto;
+}
+
+.quote-symbol-start{
+	font-size: 4em;
+	float: left;
+}
+
+.quote-symbol-end{
+	font-size: 4em;
+	float: right;
+}
+
+#contact{
+	text-align: left;
+}
+
+.contact-box{
+	background: white;
+}
+
+.inline-icon{
+	display: inline-block;
+}
+
+.left-space{
+	margin-left: 50px;
+}
+
+footer{
+	text-align: center;
+}
+
+footer ul{
+	margin-top: 20px;
+	list-style: none;
+}
+
+footer li{
+	display: inline-block;
+}
